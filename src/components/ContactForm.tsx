@@ -88,7 +88,7 @@ export default function ContactForm() {
   return (
     <Card className="max-w-2xl mx-auto">
       <CardHeader>
-        <CardTitle className="text-2xl text-[#fa6c38]">Send us a Message</CardTitle>
+        <CardTitle className="text-2xl text-[#f78614]">Send us a Message</CardTitle>
         <CardDescription>
           We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.
         </CardDescription>
@@ -182,7 +182,7 @@ export default function ContactForm() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#fa6c38] hover:bg-[#e85a2b] text-white"
+            className="w-full bg-[#f78614] hover:bg-[#e85a2b] text-white"
           >
             {isSubmitting ? "Sending..." : "Send Message"}
           </Button>

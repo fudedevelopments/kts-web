@@ -1,17 +1,20 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useLoading } from "@/context/Golobalprovider";
+import { Button } from "./ui/button";
 
-export default function PageLoader() {
-  const [isLoading, setIsLoading] = useState(true);
+interface PageLoaderProps {
+  onEnterSite?: () => void;
+}
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); // 2 second loading animation
-
-    return () => clearTimeout(timer);
-  }, []);
+export default function PageLoader({ onEnterSite }: PageLoaderProps) {
+  const { isLoading } = useLoading();
+  
+  const handleEnterSite = () => {
+    if (onEnterSite) {
+      onEnterSite();
+    }
+  };
 
   if (!isLoading) return null;
 
@@ -20,7 +23,7 @@ export default function PageLoader() {
       <div className="text-center">
         {/* Logo or Brand */}
         <div className="mb-8">
-          <div className="w-20 h-20 mx-auto bg-gradient-to-r from-[#fa6c38] to-orange-500 rounded-full flex items-center justify-center shadow-lg animate-pulse-soft">
+          <div className="w-20 h-20 mx-auto bg-gradient-to-r from-[#f78614] to-orange-500 rounded-full flex items-center justify-center shadow-lg animate-pulse-soft">
             <span className="text-2xl font-bold text-white">KTS</span>
           </div>
         </div>
@@ -34,19 +37,21 @@ export default function PageLoader() {
             BJP Youth Wing Leader
           </p>
         </div>
-        
+        <Button onClick={handleEnterSite} className="mt-4 bg-gradient-to-r from-[#f78614] to-orange-500 hover:from-[#e85a2b] hover:to-orange-600 text-white">
+          Let's Enter
+        </Button>
         {/* Loading Bar */}
-        <div className="mt-8 w-64 mx-auto">
+        {/* <div className="mt-8 w-64 mx-auto">
           <div className="h-1 bg-gray-200 rounded-full overflow-hidden">
-            <div className="h-full bg-gradient-to-r from-[#fa6c38] to-orange-500 rounded-full animate-slide-in-up origin-left"></div>
+            <div className="h-full bg-gradient-to-r from-[#f78614] to-orange-500 rounded-full animate-slide-in-up origin-left"></div>
           </div>
         </div>
-        
+         */}
         {/* Loading Dots */}
         <div className="flex justify-center space-x-2 mt-6">
-          <div className="w-2 h-2 bg-[#fa6c38] rounded-full animate-bounce" style={{ animationDelay: '0s' }}></div>
-          <div className="w-2 h-2 bg-[#fa6c38] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-          <div className="w-2 h-2 bg-[#fa6c38] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+          <div className="w-2 h-2 bg-[#f78614] rounded-full animate-bounce" style={{ animationDelay: '0s' }}></div>
+          <div className="w-2 h-2 bg-[#f78614] rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+          <div className="w-2 h-2 bg-[#f78614] rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
         </div>
       </div>
     </div>

@@ -74,7 +74,7 @@ export default function ImpactSection() {
 
         <div className="text-center">
           <Link href="/campaigns">
-            <Button size="lg" className="bg-[#fa6c38] hover:bg-[#e85a2b] text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+            <Button size="lg" className="bg-[#f78614] hover:bg-[#e85a2b] text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
               🎯 Explore All Campaigns
             </Button>
           </Link>

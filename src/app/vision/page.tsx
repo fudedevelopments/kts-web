@@ -102,7 +102,7 @@ export default function VisionPage() {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
               A comprehensive roadmap for transforming Tamil Nadu through youth empowerment, innovation, and inclusive governance.
             </p>
-            <div className="text-white rounded-lg p-8 max-w-4xl mx-auto" style={{ background: 'linear-gradient(to right, #fa6c38, #e85a2b)' }}>
+            <div className="text-white rounded-lg p-8 max-w-4xl mx-auto" style={{ background: 'linear-gradient(to right, #f78614, #e85a2b)' }}>
               <h2 className="text-2xl font-bold mb-4">Our Vision Statement</h2>
               <p className="text-lg opacity-90">
                 "To build a progressive Tamil Nadu where every citizen, especially the youth, has equal opportunities to thrive, 
@@ -151,7 +151,7 @@ export default function VisionPage() {
               {strategicPriorities.map((priority, index) => (
                 <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardHeader>
-                    <CardTitle className="text-lg" style={{ color: '#fa6c38' }}>{priority.title}</CardTitle>
+                    <CardTitle className="text-lg" style={{ color: '#f78614' }}>{priority.title}</CardTitle>
                     <div className="text-sm font-medium text-gray-500">{priority.timeline}</div>
                   </CardHeader>
                   <CardContent>

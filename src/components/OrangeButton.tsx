@@ -18,14 +18,14 @@ export default function OrangeButton({
   ...props 
 }: OrangeButtonProps) {
   const baseStyle = {
-    backgroundColor: variant === "outline" ? "transparent" : "#fa6c38",
-    borderColor: "#fa6c38",
-    color: variant === "outline" ? "#fa6c38" : "white",
+    backgroundColor: variant === "outline" ? "transparent" : "#f78614",
+    borderColor: "#f78614",
+    color: variant === "outline" ? "#f78614" : "white",
   };
 
   const handleMouseEnter = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (variant === "outline") {
-      e.currentTarget.style.backgroundColor = "#fa6c38";
+      e.currentTarget.style.backgroundColor = "#f78614";
       e.currentTarget.style.color = "white";
     } else {
       e.currentTarget.style.backgroundColor = "#e85a2b";
@@ -35,9 +35,9 @@ export default function OrangeButton({
   const handleMouseLeave = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (variant === "outline") {
       e.currentTarget.style.backgroundColor = "transparent";
-      e.currentTarget.style.color = "#fa6c38";
+      e.currentTarget.style.color = "#f78614";
     } else {
-      e.currentTarget.style.backgroundColor = "#fa6c38";
+      e.currentTarget.style.backgroundColor = "#f78614";
     }
   };
 

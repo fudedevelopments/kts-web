@@ -115,7 +115,7 @@ export default function CampaignsPage() {
           {/* Impact Statistics */}
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             <div className="text-center p-6 rounded-lg" style={{ backgroundColor: '#fef7f2' }}>
-              <div className="text-3xl font-bold mb-2" style={{ color: '#fa6c38' }}>6+</div>
+              <div className="text-3xl font-bold mb-2" style={{ color: '#f78614' }}>6+</div>
               <div className="text-gray-700">Years of Service</div>
             </div>
             <div className="text-center bg-blue-50 p-6 rounded-lg">
@@ -166,7 +166,7 @@ export default function CampaignsPage() {
           </div>
 
           {/* Call to Action */}
-          <div className="text-white rounded-lg p-8 text-center" style={{ background: 'linear-gradient(to right, #fa6c38, #e85a2b)' }}>
+          <div className="text-white rounded-lg p-8 text-center" style={{ background: 'linear-gradient(to right, #f78614, #e85a2b)' }}>
             <h2 className="text-3xl font-bold mb-4">Join Our Mission</h2>
             <p className="text-xl mb-6 opacity-90">
               Be part of the change. Together, we can build stronger communities and create lasting impact.

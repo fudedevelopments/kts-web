@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className='sticky top-0 bg-white shadow-lg z-50'>
       {/* Top Contact Bar */}
-      <div className='bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] text-white hidden sm:block'>
+      <div className='bg-gradient-to-r from-[#f78614] to-[#e85a2b] text-white hidden sm:block'>
         <div className='container mx-auto px-4 sm:px-6'>
           <div className='flex flex-col sm:flex-row items-center justify-between py-2 text-sm'>
             <div className='flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-6'>
@@ -139,12 +139,12 @@ export default function Header() {
               />
             </div>
             <div className='hidden sm:block'>
-              <div className='text-2xl font-bold text-[#fa6c38]'>KTS Kavin</div>
+              <div className='text-2xl font-bold text-[#f78614]'>KTS Kavin</div>
               <div className='text-xs text-gray-500 font-medium'>
                 BJP Youth Leader
               </div>
             </div>
-            <div className='sm:hidden text-xl font-bold text-[#fa6c38]'>
+            <div className='sm:hidden text-xl font-bold text-[#f78614]'>
               KTS Kavin
             </div>
           </Link>
@@ -153,36 +153,36 @@ export default function Header() {
           <div className='hidden md:flex items-center space-x-1'>
             <Link
               href='/about'
-              className='px-4 py-2 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
             >
               About
             </Link>
             <Link
               href='/campaigns'
-              className='px-4 py-2 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
             >
               Campaigns
             </Link>
             <Link
               href='/vision'
-              className='px-4 py-2 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
             >
               Vision
             </Link>
             <Link
               href='/gallery'
-              className='px-4 py-2 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
             >
               Gallery
             </Link>
             <Link
               href='/get-involved'
-              className='px-4 py-2 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
             >
               Get Involved
             </Link>
             <Link href='/contact' className='ml-4'>
-              <Button className='bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-6 py-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'>
+              <Button className='bg-gradient-to-r from-[#f78614] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-6 py-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'>
                 Contact Us
               </Button>
             </Link>
@@ -232,42 +232,42 @@ export default function Header() {
             <div className='flex flex-col space-y-2 pt-4'>
               <Link
                 href='/about'
-                className='px-4 py-3 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
                 onClick={() => setIsMenuOpen(false)}
               >
                 📖 About KTS Kavin
               </Link>
               <Link
                 href='/campaigns'
-                className='px-4 py-3 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
                 onClick={() => setIsMenuOpen(false)}
               >
                 🚀 Campaigns & Initiatives
               </Link>
               <Link
                 href='/vision'
-                className='px-4 py-3 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
                 onClick={() => setIsMenuOpen(false)}
               >
                 🎯 Vision & Mission
               </Link>
               <Link
                 href='/gallery'
-                className='px-4 py-3 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
                 onClick={() => setIsMenuOpen(false)}
               >
                 📸 Gallery
               </Link>
               <Link
                 href='/get-involved'
-                className='px-4 py-3 text-gray-700 hover:text-[#fa6c38] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
                 onClick={() => setIsMenuOpen(false)}
               >
                 🤝 Get Involved
               </Link>
               <div className='pt-2'>
                 <Link href='/contact' onClick={() => setIsMenuOpen(false)}>
-                  <Button className='w-full bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white py-3 shadow-lg'>
+                  <Button className='w-full bg-gradient-to-r from-[#f78614] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white py-3 shadow-lg'>
                     📞 Contact Us
                   </Button>
                 </Link>

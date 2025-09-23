@@ -52,8 +52,8 @@ export default function GalleryPage() {
                 onClick={() => setSelectedCategory(category)}
                 className="border border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white"
                 style={{
-                  backgroundColor: selectedCategory === category ? '#fa6c38' : 'transparent',
-                  color: selectedCategory === category ? 'white' : '#fa6c38'
+                  backgroundColor: selectedCategory === category ? '#f78614' : 'transparent',
+                  color: selectedCategory === category ? 'white' : '#f78614'
                 }}
               >
                 {category}
@@ -64,7 +64,7 @@ export default function GalleryPage() {
           {/* Category Statistics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <div className="text-center p-4 rounded-lg" style={{ backgroundColor: '#fef7f2' }}>
-              <div className="text-2xl font-bold mb-1" style={{ color: '#fa6c38' }}>
+              <div className="text-2xl font-bold mb-1" style={{ color: '#f78614' }}>
                 {galleryImages.filter(img => img.category === "Blood Camps").length}
               </div>
               <div className="text-sm text-gray-600">Blood Camps</div>

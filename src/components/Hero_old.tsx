@@ -26,7 +26,7 @@ export default function Hero() {
     <section className="relative min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-[#fa6c38] rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-[#f78614] rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
       </div>
       
@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative group w-full max-w-md lg:max-w-lg">
               {/* Subtle professional glow */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#fa6c38]/20 to-orange-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute -inset-2 bg-gradient-to-r from-[#f78614]/20 to-orange-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               {/* Clean professional card design */}
               <div className="relative bg-white rounded-lg p-2 shadow-xl hover:shadow-2xl transition-shadow duration-300">
@@ -51,11 +51,11 @@ export default function Hero() {
               </div>
                 
               {/* Professional badges */}
-              <div className="absolute -top-3 -left-3 bg-[#fa6c38] text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg">
+              <div className="absolute -top-3 -left-3 bg-[#f78614] text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg">
                 BJP Leader
               </div>
               
-              <div className="absolute -bottom-3 -right-3 bg-white text-[#fa6c38] px-4 py-2 rounded-lg font-semibold text-sm shadow-lg border border-orange-200">
+              <div className="absolute -bottom-3 -right-3 bg-white text-[#f78614] px-4 py-2 rounded-lg font-semibold text-sm shadow-lg border border-orange-200">
                 Since 2019
               </div>
             </div>
@@ -69,9 +69,9 @@ export default function Hero() {
               </div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-gray-900 leading-tight">
-                KTS <span className="text-[#fa6c38] relative">
+                KTS <span className="text-[#f78614] relative">
                   Kavin
-                  <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#fa6c38] to-orange-500 rounded-full"></div>
+                  <div className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#f78614] to-orange-500 rounded-full"></div>
                 </span>
               </h1>
               
@@ -84,7 +84,7 @@ export default function Hero() {
 
             <div className="space-y-6">
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-                Leading with <span className="font-semibold text-[#fa6c38]">dedication</span> and <span className="font-semibold text-[#fa6c38]">integrity</span>, 
+                Leading with <span className="font-semibold text-[#f78614]">dedication</span> and <span className="font-semibold text-[#f78614]">integrity</span>, 
                 committed to education, entrepreneurship, and governance reforms across Tamil Nadu. 
                 <span className="block mt-2 font-medium">
                   From Perundurai to the entire state - building bridges between aspiration and achievement.
@@ -95,12 +95,12 @@ export default function Hero() {
             {/* Enhanced Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link href="/get-involved">
-                <Button size="lg" className="bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                <Button size="lg" className="bg-gradient-to-r from-[#f78614] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
                   🤝 Join Our Mission
                 </Button>
               </Link>
               <Link href="/about">
-                <Button variant="outline" size="lg" className="border-2 border-[#fa6c38] text-[#fa6c38] hover:bg-[#fa6c38] hover:text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                <Button variant="outline" size="lg" className="border-2 border-[#f78614] text-[#f78614] hover:bg-[#f78614] hover:text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
                   📖 My Journey
                 </Button>
               </Link>
@@ -109,7 +109,7 @@ export default function Hero() {
             {/* Professional Stats */}
             <div className="mt-8 lg:mt-12 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
               <div className="bg-white rounded-lg p-4 lg:p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-                <div className="text-2xl lg:text-3xl font-bold text-[#fa6c38] mb-2">6+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-[#f78614] mb-2">6+</div>
                 <div className="text-sm text-gray-600 font-medium">Years of Service</div>
               </div>
               
@@ -235,7 +235,7 @@ export default function Hero() {
 
         {/* Scroll Indicator - Fixed positioning */}
         {/* <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce hidden lg:flex">
-          <div className="flex flex-col items-center text-gray-500 cursor-pointer hover:text-[#fa6c38] transition-colors duration-300">
+          <div className="flex flex-col items-center text-gray-500 cursor-pointer hover:text-[#f78614] transition-colors duration-300">
             <span className="text-xs mb-1 font-medium">Discover More</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

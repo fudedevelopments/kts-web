@@ -37,7 +37,7 @@ export default function Hero() {
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div 
-          className={`absolute top-20 left-10 w-72 h-72 bg-[#fa6c38] rounded-full blur-3xl transition-all duration-1000 ease-out ${
+          className={`absolute top-20 left-10 w-72 h-72 bg-[#f78614] rounded-full blur-3xl transition-all duration-1000 ease-out ${
             isLoaded ? 'translate-x-0 translate-y-0 opacity-5' : '-translate-x-20 -translate-y-20 opacity-0'
           }`}
         ></div>
@@ -56,14 +56,14 @@ export default function Hero() {
           }`}>
             <div className="relative group w-full max-w-md lg:max-w-lg cursor-pointer">
               {/* Subtle professional glow */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#fa6c38]/20 to-orange-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute -inset-2 bg-gradient-to-r from-[#f78614]/20 to-orange-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               {/* Clean professional card design */}
               <div className={`relative bg-white rounded-lg p-2 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden ${
                 isLoaded ? 'scale-100' : 'scale-95'
               }`}>
                 <Image 
-                  src="/Hero_img.jpeg" 
+                  src="/Hero_img.JPG" 
                   alt="KTS Kavin - BJP Youth Leader" 
                   width={450} 
                   height={550} 
@@ -98,7 +98,7 @@ export default function Hero() {
                     
                     <div className="flex gap-2">
                       <Link href="/about">
-                        <button className="bg-[#fa6c38] hover:bg-[#e85a2b] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200">
+                        <button className="bg-[#f78614] hover:bg-[#e85a2b] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200">
                           Learn More
                         </button>
                       </Link>
@@ -113,13 +113,13 @@ export default function Hero() {
               </div>
                 
               {/* Professional badges */}
-              <div className={`absolute -top-3 -left-3 bg-[#fa6c38] text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg z-10 transition-all duration-700 ease-out ${
+              <div className={`absolute -top-3 -left-3 bg-[#f78614] text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg z-10 transition-all duration-700 ease-out ${
                 isLoaded ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'
               }`}>
                 BJP Leader
               </div>
               
-              <div className={`absolute -bottom-3 -right-3 bg-white text-[#fa6c38] px-4 py-2 rounded-lg font-semibold text-sm shadow-lg border border-orange-200 z-10 transition-all duration-900 ease-out ${
+              <div className={`absolute -bottom-3 -right-3 bg-white text-[#f78614] px-4 py-2 rounded-lg font-semibold text-sm shadow-lg border border-orange-200 z-10 transition-all duration-900 ease-out ${
                 isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
               }`}>
                 Since 2019
@@ -141,9 +141,9 @@ export default function Hero() {
               <h1 className={`text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-gray-900 leading-tight transition-all duration-700 ease-out ${
                 isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
               }`}>
-                KTS <span className="text-[#fa6c38] relative">
+                KTS <span className="text-[#f78614] relative">
                   Kavin
-                  <div className={`absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#fa6c38] to-orange-500 rounded-full transition-all duration-1000 ease-out ${
+                  <div className={`absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-[#f78614] to-orange-500 rounded-full transition-all duration-1000 ease-out ${
                     isLoaded ? 'scale-x-100' : 'scale-x-0'
                   }`}></div>
                 </span>
@@ -162,7 +162,7 @@ export default function Hero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
             }`}>
               <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-                Leading with <span className="font-semibold text-[#fa6c38]">dedication</span> and <span className="font-semibold text-[#fa6c38]">integrity</span>, 
+                Leading with <span className="font-semibold text-[#f78614]">dedication</span> and <span className="font-semibold text-[#f78614]">integrity</span>, 
                 committed to education, entrepreneurship, and governance reforms across Tamil Nadu. 
                 <span className="block mt-2 font-medium">
                   From Perundurai to the entire state - building bridges between aspiration and achievement.
@@ -175,12 +175,12 @@ export default function Hero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}>
               <Link href="/get-involved">
-                <Button size="lg" className="bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
+                <Button size="lg" className="bg-gradient-to-r from-[#f78614] to-[#e85a2b] hover:from-[#e85a2b] hover:to-[#d64e1f] text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
                   🤝 Join Our Mission
                 </Button>
               </Link>
               <Link href="/about">
-                <Button variant="outline" size="lg" className="border-2 border-[#fa6c38] text-[#fa6c38] hover:bg-[#fa6c38] hover:text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
+                <Button variant="outline" size="lg" className="border-2 border-[#f78614] text-[#f78614] hover:bg-[#f78614] hover:text-white px-10 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
                   📖 My Journey
                 </Button>
               </Link>
@@ -191,7 +191,7 @@ export default function Hero() {
               <div className={`bg-white rounded-lg p-4 lg:p-6 shadow-md hover:shadow-lg transition-all duration-500 border border-gray-100 hover:scale-105 ${
                 isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
               }`} style={{ transitionDelay: isLoaded ? '400ms' : '0ms' }}>
-                <div className="text-2xl lg:text-3xl font-bold text-[#fa6c38] mb-2">6+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-[#f78614] mb-2">6+</div>
                 <div className="text-sm text-gray-600 font-medium">Years of Service</div>
               </div>
               

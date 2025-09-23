@@ -39,7 +39,7 @@ export default function FocusAreas() {
             <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
                 <div className="text-4xl mb-4">{area.icon}</div>
-                <CardTitle className="text-xl text-[#fa6c38]">{area.title}</CardTitle>
+                <CardTitle className="text-xl text-[#f78614]">{area.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600">

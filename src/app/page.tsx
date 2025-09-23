@@ -1,5 +1,4 @@
 "use client";
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import FocusAreas from "@/components/FocusAreas";
@@ -12,24 +11,20 @@ import Footer from "@/components/Footer";
 import PageLoader from "@/components/PageLoader";
 import { AnimationPerformanceOptimizer } from "@/components/AnimationOptimizer";
 import { AnimatedSection } from "@/hooks/useInView";
-import { useState, useEffect } from "react";
+import { useLoading } from "@/context/Golobalprovider";
 
 export default function Home() {
-  const [showLoader, setShowLoader] = useState(true);
+  const { isLoading, stopLoading } = useLoading();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowLoader(false);
-    }, 2000); // 2 second loading
-
-    return () => clearTimeout(timer);
-  }, []);
+  const handleEnterSite = () => {
+    stopLoading();
+  };
 
   return (
     <>
       <AnimationPerformanceOptimizer />
-      {showLoader && <PageLoader />}
-      <div className={`transition-opacity duration-500 ${showLoader ? 'opacity-0' : 'opacity-100'} overflow-x-hidden`}>
+      {isLoading && <PageLoader onEnterSite={handleEnterSite} />}
+      <div className={`transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'} overflow-x-hidden`}>
         <Header />
         <main>
           <Hero />

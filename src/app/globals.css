@@ -45,7 +45,7 @@
 
 :root {
   /* KTS Kavin Brand Colors */
-  --color-primary: #fa6c38;
+  --color-primary: #f78614;
   --color-secondary: #FFFFFF;
   --color-accent: #1F2937;
   --color-light: #F9FAFB;
@@ -59,7 +59,7 @@
   --card-foreground: oklch(0.145 0 0); /* dark gray */
   --popover: oklch(1 0 0); /* white */
   --popover-foreground: oklch(0.145 0 0); /* dark gray */
-  --primary: #fa6c38; /* #fa6c38 orange primary */
+  --primary: #f78614; /* #f78614 orange primary */
   --primary-foreground: oklch(1 0 0); /* white */
   --secondary: oklch(0.985 0 0); /* light gray */
   --secondary-foreground: oklch(0.205 0 0); /* dark gray */
@@ -67,18 +67,18 @@
   --muted-foreground: oklch(0.556 0 0); /* medium gray #6B7280 equivalent */
   --accent: oklch(0.235 0.015 255.31); /* #1F2937 converted to oklch */
   --accent-foreground: oklch(0.985 0 0); /* light gray */
-  --destructive: #fa6c38; /* same as primary orange */
+  --destructive: #f78614; /* same as primary orange */
   --border: oklch(0.922 0 0); /* light border */
   --input: oklch(0.922 0 0); /* input background */
-  --ring: #fa6c38; /* focus ring - primary orange */
-  --chart-1: #fa6c38; /* primary orange */
+  --ring: #f78614; /* focus ring - primary orange */
+  --chart-1: #f78614; /* primary orange */
   --chart-2: oklch(0.6 0.118 184.704); /* blue */
   --chart-3: oklch(0.398 0.07 227.392); /* purple */
   --chart-4: oklch(0.828 0.189 84.429); /* green */
   --chart-5: oklch(0.769 0.188 70.08); /* orange variant */
   --sidebar: oklch(0.985 0 0); /* light background */
   --sidebar-foreground: oklch(0.145 0 0); /* dark text */
-  --sidebar-primary: #fa6c38; /* primary orange */
+  --sidebar-primary: #f78614; /* primary orange */
   --sidebar-primary-foreground: oklch(1 0 0); /* white */
   --sidebar-accent: oklch(0.97 0 0); /* very light gray */
   --sidebar-accent-foreground: oklch(0.205 0 0); /* dark gray */
@@ -93,7 +93,7 @@
   --card-foreground: oklch(0.985 0 0); /* light text */
   --popover: oklch(0.205 0 0); /* dark popover */
   --popover-foreground: oklch(0.985 0 0); /* light text */
-  --primary: #fa6c38; /* same primary orange #fa6c38 */
+  --primary: #f78614; /* same primary orange #f78614 */
   --primary-foreground: oklch(1 0 0); /* white text on orange */
   --secondary: oklch(0.269 0 0); /* dark secondary */
   --secondary-foreground: oklch(0.985 0 0); /* light text */
@@ -101,18 +101,18 @@
   --muted-foreground: oklch(0.708 0 0); /* medium gray text */
   --accent: oklch(0.235 0.015 255.31); /* same accent #1F2937 */
   --accent-foreground: oklch(0.985 0 0); /* light text */
-  --destructive: #fa6c38; /* same orange */
+  --destructive: #f78614; /* same orange */
   --border: oklch(1 0 0 / 10%); /* subtle border */
   --input: oklch(1 0 0 / 15%); /* subtle input background */
-  --ring: #fa6c38; /* primary orange focus ring */
-  --chart-1: #fa6c38; /* primary orange */
+  --ring: #f78614; /* primary orange focus ring */
+  --chart-1: #f78614; /* primary orange */
   --chart-2: oklch(0.696 0.17 162.48); /* adjusted blue */
   --chart-3: oklch(0.769 0.188 70.08); /* orange variant */
   --chart-4: oklch(0.627 0.265 303.9); /* purple */
   --chart-5: oklch(0.645 0.246 16.439); /* adjusted orange */
   --sidebar: oklch(0.205 0 0); /* dark sidebar */
   --sidebar-foreground: oklch(0.985 0 0); /* light text */
-  --sidebar-primary: #fa6c38; /* primary orange */
+  --sidebar-primary: #f78614; /* primary orange */
   --sidebar-primary-foreground: oklch(1 0 0); /* white */
   --sidebar-accent: oklch(0.269 0 0); /* dark accent */
   --sidebar-accent-foreground: oklch(0.985 0 0); /* light text */
@@ -161,20 +161,20 @@
   
   /* BJP Theme Colors */
   .bg-bjp-gradient {
-    background: linear-gradient(135deg, var(--color-primary) 0%, #ff8c56 100%);
+    background: linear-gradient(135deg, #f78614 0%, #ff8c56 100%);
   }
   
   .text-bjp-primary {
-    color: var(--color-primary);
+    color: #f78614;
   }
   
   .border-bjp-primary {
-    border-color: var(--color-primary);
+    border-color: #f78614;
   }
   
   /* Hover States */
   .hover-bjp-primary:hover {
-    background-color: var(--color-primary);
+    background-color: #f78614;
     color: var(--color-secondary);
   }
   
@@ -184,24 +184,24 @@
   }
   
   .text-orange-primary {
-    color: #fa6c38;
+    color: #f78614;
   }
   
   .bg-orange-primary {
-    background-color: #fa6c38;
+    background-color: #f78614;
   }
   
   .border-orange-primary {
-    border-color: #fa6c38;
+    border-color: #f78614;
   }
   
   /* Shadow Utilities */
   .shadow-bjp {
-    box-shadow: 0 4px 14px 0 rgba(250, 108, 56, 0.15);
+    box-shadow: 0 4px 14px 0 rgba(247, 134, 20, 0.15);
   }
   
   .shadow-bjp-lg {
-    box-shadow: 0 10px 25px 0 rgba(250, 108, 56, 0.2);
+    box-shadow: 0 10px 25px 0 rgba(247, 134, 20, 0.2);
   }
 }
 

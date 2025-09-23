@@ -97,7 +97,7 @@ export default function VolunteerForm() {
   return (
     <Card className="max-w-2xl mx-auto">
       <CardHeader>
-        <CardTitle className="text-2xl text-[#fa6c38]">Volunteer Registration</CardTitle>
+        <CardTitle className="text-2xl text-[#f78614]">Volunteer Registration</CardTitle>
         <CardDescription>
           Join our mission to create positive change in the community. Fill out this form to become a volunteer.
         </CardDescription>
@@ -274,7 +274,7 @@ export default function VolunteerForm() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#fa6c38] hover:bg-[#e85a2b] text-white"
+            className="w-full bg-[#f78614] hover:bg-[#e85a2b] text-white"
           >
             {isSubmitting ? "Submitting..." : "Submit Volunteer Application"}
           </Button>

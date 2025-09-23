@@ -93,7 +93,7 @@ export default function GetInvolvedPage() {
                 <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
                   <CardHeader>
                     <div className="text-3xl mb-2">{area.icon}</div>
-                    <CardTitle className="text-lg" style={{ color: '#fa6c38' }}>{area.title}</CardTitle>
+                    <CardTitle className="text-lg" style={{ color: '#f78614' }}>{area.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-gray-600">
@@ -110,13 +110,13 @@ export default function GetInvolvedPage() {
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Volunteer Opportunities</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {volunteerOpportunities.map((opportunity, index) => (
-                <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4" style={{ borderLeftColor: '#fa6c38' }}>
+                <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4" style={{ borderLeftColor: '#f78614' }}>
                   <CardHeader>
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-2xl">{opportunity.icon}</span>
                       <CardTitle className="text-lg text-gray-900">{opportunity.title}</CardTitle>
                     </div>
-                    <div className="text-sm font-medium" style={{ color: '#fa6c38' }}>{opportunity.commitment}</div>
+                    <div className="text-sm font-medium" style={{ color: '#f78614' }}>{opportunity.commitment}</div>
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="text-gray-700">
@@ -147,7 +147,7 @@ export default function GetInvolvedPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-3xl mb-2">📢</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Spread the Word</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Spread the Word</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-700 mb-4">
@@ -160,7 +160,7 @@ export default function GetInvolvedPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-3xl mb-2">💰</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Financial Support</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Financial Support</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-700 mb-4">
@@ -177,7 +177,7 @@ export default function GetInvolvedPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-3xl mb-2">🤝</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Partnership</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Partnership</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-700 mb-4">
@@ -194,7 +194,7 @@ export default function GetInvolvedPage() {
           </div>
 
           {/* Call to Action */}
-          <div className="text-white rounded-lg p-8 text-center" style={{ background: 'linear-gradient(to right, #fa6c38, #e85a2b)' }}>
+          <div className="text-white rounded-lg p-8 text-center" style={{ background: 'linear-gradient(to right, #f78614, #e85a2b)' }}>
             <h2 className="text-3xl font-bold mb-4">Ready to Make a Difference?</h2>
             <p className="text-xl mb-6 opacity-90">
               Join thousands of volunteers who are already making a positive impact in Tamil Nadu.

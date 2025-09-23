@@ -57,7 +57,7 @@ export default function ContactPage() {
               <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>
                   <div className="text-3xl mb-2">{method.icon}</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>{method.title}</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>{method.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   {method.link ? (
@@ -92,7 +92,7 @@ export default function ContactPage() {
               {/* Office Hours */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Office Hours</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Office Hours</CardTitle>
                   <CardDescription>
                     Visit us during these hours for in-person consultations
                   </CardDescription>
@@ -112,7 +112,7 @@ export default function ContactPage() {
               {/* Quick Contact */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Quick Contact</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Quick Contact</CardTitle>
                   <CardDescription>
                     For immediate assistance or urgent matters
                   </CardDescription>
@@ -138,7 +138,7 @@ export default function ContactPage() {
               {/* Social Media */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Follow Us</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Follow Us</CardTitle>
                   <CardDescription>
                     Stay updated with our latest activities and announcements
                   </CardDescription>
@@ -179,7 +179,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-center text-gray-900 mb-8">Contact Guidelines</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4" style={{ color: '#fa6c38' }}>What to Expect</h3>
+                <h3 className="text-lg font-semibold mb-4" style={{ color: '#f78614' }}>What to Expect</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">✓</span>
@@ -200,7 +200,7 @@ export default function ContactPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4" style={{ color: '#fa6c38' }}>How We Can Help</h3>
+                <h3 className="text-lg font-semibold mb-4" style={{ color: '#f78614' }}>How We Can Help</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">▶</span>

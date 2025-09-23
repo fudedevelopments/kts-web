@@ -95,7 +95,7 @@ export default function LatestUpdates() {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                   />
-                  <div className="absolute top-4 left-4 bg-[#fa6c38] text-white px-3 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute top-4 left-4 bg-[#f78614] text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {update.category}
                   </div>
                   <div className="absolute bottom-4 right-4 bg-white bg-opacity-90 text-gray-800 px-3 py-1 rounded-full text-xs font-medium">
@@ -103,7 +103,7 @@ export default function LatestUpdates() {
                   </div>
                 </div>
                 <CardHeader>
-                  <CardTitle className="text-xl text-gray-900 group-hover:text-[#fa6c38] transition-colors">
+                  <CardTitle className="text-xl text-gray-900 group-hover:text-[#f78614] transition-colors">
                     {update.title}
                   </CardTitle>
                   <div className="text-sm font-semibold text-green-600">{update.impact}</div>
@@ -119,7 +119,7 @@ export default function LatestUpdates() {
 
           <div className="text-center mt-12">
             <Link href="/campaigns">
-              <Button variant="outline" className="border-[#fa6c38] text-[#fa6c38] hover:bg-[#fa6c38] hover:text-white px-8 py-3 text-lg font-semibold">
+              <Button variant="outline" className="border-[#f78614] text-[#f78614] hover:bg-[#f78614] hover:text-white px-8 py-3 text-lg font-semibold">
                 📰 View All Updates
               </Button>
             </Link>
@@ -156,7 +156,7 @@ export default function LatestUpdates() {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-20 bg-gradient-to-r from-[#fa6c38] to-[#e85a2b] rounded-2xl p-12 text-center text-white">
+        <div className="mt-20 bg-gradient-to-r from-[#f78614] to-[#e85a2b] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Ready to Make a Difference Together?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Join thousands of citizens who are already part of our movement for positive change. 
@@ -164,12 +164,12 @@ export default function LatestUpdates() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/get-involved">
-              <Button size="lg" variant="secondary" className="bg-white text-[#fa6c38] hover:bg-gray-100 px-8 py-3 text-lg font-semibold">
+              <Button size="lg" variant="secondary" className="bg-white text-[#f78614] hover:bg-gray-100 px-8 py-3 text-lg font-semibold">
                 🚀 Get Involved Today
               </Button>
             </Link>
             <Link href="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-[#fa6c38] px-8 py-3 text-lg font-semibold">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-[#f78614] px-8 py-3 text-lg font-semibold">
                 💬 Start a Conversation
               </Button>
             </Link>

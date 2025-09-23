@@ -42,11 +42,11 @@ export default function Achievements() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {achievements.map((achievement, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-[#fa6c38]">
+            <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-[#f78614]">
               <CardHeader>
                 <div className="text-4xl mb-4">{achievement.image}</div>
                 <CardTitle className="text-lg text-gray-900">{achievement.title}</CardTitle>
-                <div className="text-sm font-semibold text-[#fa6c38]">{achievement.impact}</div>
+                <div className="text-sm font-semibold text-[#f78614]">{achievement.impact}</div>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600">
@@ -59,7 +59,7 @@ export default function Achievements() {
 
         <div className="text-center">
           <Link href="/campaigns">
-            <Button size="lg" className="bg-[#fa6c38] hover:bg-[#e85a2b] text-white">
+            <Button size="lg" className="bg-[#f78614] hover:bg-[#e85a2b] text-white">
               View All Campaigns
             </Button>
           </Link>

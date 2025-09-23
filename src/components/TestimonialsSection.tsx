@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
 
         <div className="max-w-4xl mx-auto">
           <Card className="bg-white shadow-2xl border-0 relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#fa6c38] to-orange-500"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#f78614] to-orange-500"></div>
             
             <CardHeader className="text-center pb-4">
               <div className="flex justify-center mb-4">
@@ -82,14 +82,14 @@ export default function TestimonialsSection() {
               </blockquote>
               
               <div className="flex items-center justify-center space-x-4">
-                <div className="w-16 h-16 bg-gradient-to-r from-[#fa6c38] to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-16 h-16 bg-gradient-to-r from-[#f78614] to-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl">
                   {testimonials[currentTestimonial].name.charAt(0)}
                 </div>
                 <div className="text-left">
                   <h4 className="font-bold text-gray-900 text-lg">
                     {testimonials[currentTestimonial].name}
                   </h4>
-                  <p className="text-[#fa6c38] font-medium">
+                  <p className="text-[#f78614] font-medium">
                     {testimonials[currentTestimonial].role}
                   </p>
                   <p className="text-gray-500 text-sm">
@@ -105,7 +105,7 @@ export default function TestimonialsSection() {
             <Button
               variant="outline"
               onClick={prevTestimonial}
-              className="border-[#fa6c38] text-[#fa6c38] hover:bg-[#fa6c38] hover:text-white"
+              className="border-[#f78614] text-[#f78614] hover:bg-[#f78614] hover:text-white"
             >
               ← Previous
             </Button>
@@ -117,7 +117,7 @@ export default function TestimonialsSection() {
                   onClick={() => setCurrentTestimonial(index)}
                   className={`w-3 h-3 rounded-full transition-colors ${
                     index === currentTestimonial 
-                      ? 'bg-[#fa6c38]' 
+                      ? 'bg-[#f78614]' 
                       : 'bg-gray-300 hover:bg-gray-400'
                   }`}
                 />
@@ -127,7 +127,7 @@ export default function TestimonialsSection() {
             <Button
               variant="outline"
               onClick={nextTestimonial}
-              className="border-[#fa6c38] text-[#fa6c38] hover:bg-[#fa6c38] hover:text-white"
+              className="border-[#f78614] text-[#f78614] hover:bg-[#f78614] hover:text-white"
             >
               Next →
             </Button>
@@ -137,7 +137,7 @@ export default function TestimonialsSection() {
         {/* Community Stats */}
         <div className="mt-20 grid md:grid-cols-3 gap-8 text-center">
           <div className="bg-white rounded-lg p-8 shadow-lg border border-orange-100">
-            <div className="text-4xl font-bold text-[#fa6c38] mb-2">4.9/5</div>
+            <div className="text-4xl font-bold text-[#f78614] mb-2">4.9/5</div>
             <div className="text-gray-700 font-medium">Community Satisfaction Rating</div>
             <div className="text-sm text-gray-500 mt-1">Based on 500+ feedback responses</div>
           </div>

@@ -34,7 +34,7 @@ export default function AboutPage() {
               />
             </div>
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold mb-6" style={{ color: '#fa6c38' }}>Biography</h2>
+              <h2 className="text-3xl font-bold mb-6" style={{ color: '#f78614' }}>Biography</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 KTS Kavin is a passionate political leader and dedicated member of the Bharatiya Janata Party (BJP) since 2019. 
                 Born and raised in Tamil Nadu, he has consistently demonstrated unwavering commitment to public service and 
@@ -53,9 +53,9 @@ export default function AboutPage() {
 
           {/* Education & Background */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
-            <Card className="border-l-4" style={{ borderLeftColor: '#fa6c38' }}>
+            <Card className="border-l-4" style={{ borderLeftColor: '#f78614' }}>
               <CardHeader>
-                <CardTitle className="text-2xl" style={{ color: '#fa6c38' }}>Education</CardTitle>
+                <CardTitle className="text-2xl" style={{ color: '#f78614' }}>Education</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -68,9 +68,9 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-l-4" style={{ borderLeftColor: '#fa6c38' }}>
+            <Card className="border-l-4" style={{ borderLeftColor: '#f78614' }}>
               <CardHeader>
-                <CardTitle className="text-2xl" style={{ color: '#fa6c38' }}>Political Journey</CardTitle>
+                <CardTitle className="text-2xl" style={{ color: '#f78614' }}>Political Journey</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -91,7 +91,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-4xl mb-4">🎯</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Vision</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Vision</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-600">
@@ -104,7 +104,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-4xl mb-4">🤝</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Mission</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Mission</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-600">
@@ -117,7 +117,7 @@ export default function AboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <div className="text-4xl mb-4">⚡</div>
-                  <CardTitle className="text-xl" style={{ color: '#fa6c38' }}>Values</CardTitle>
+                  <CardTitle className="text-xl" style={{ color: '#f78614' }}>Values</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-600">
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 My commitment is to serve as a bridge between the aspirations of our youth and the opportunities that our 
                 great nation can provide."
               </blockquote>
-              <p className="text-lg font-semibold" style={{ color: '#fa6c38' }}>- KTS Kavin</p>
+              <p className="text-lg font-semibold" style={{ color: '#f78614' }}>- KTS Kavin</p>
             </div>
           </div>
         </div>

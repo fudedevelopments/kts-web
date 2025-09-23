@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-bold text-[#fa6c38] mb-4">Contact Information</h3>
+            <h3 className="text-xl font-bold text-[#f78614] mb-4">Contact Information</h3>
             <div className="space-y-2">
               <p>📍 72/23,24 Chennimalai Road</p>
               <p>Perundurai – 638052, Tamil Nadu</p>
@@ -18,7 +18,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold text-[#fa6c38] mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold text-[#f78614] mb-4">Quick Links</h3>
             <div className="space-y-2">
               <a href="/about" className="block hover:text-orange-400 transition-colors">About</a>
               <a href="/campaigns" className="block hover:text-orange-400 transition-colors">Campaigns</a>
@@ -30,7 +30,7 @@ export default function Footer() {
 
           {/* Social Links */}
           <div>
-            <h3 className="text-xl font-bold text-[#fa6c38] mb-4">Follow Us</h3>
+            <h3 className="text-xl font-bold text-[#f78614] mb-4">Follow Us</h3>
             <SocialLinks />
           </div>
         </div>

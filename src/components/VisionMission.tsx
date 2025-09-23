@@ -72,8 +72,8 @@ export default function VisionMission() {
               onClick={() => setActiveTab("vision")}
               className={`px-8 py-3 text-lg font-semibold ${
                 activeTab === "vision" 
-                  ? "bg-[#fa6c38] text-white" 
-                  : "text-gray-600 hover:text-[#fa6c38]"
+                  ? "bg-[#f78614] text-white" 
+                  : "text-gray-600 hover:text-[#f78614]"
               }`}
             >
               🎯 Our Vision
@@ -83,8 +83,8 @@ export default function VisionMission() {
               onClick={() => setActiveTab("mission")}
               className={`px-8 py-3 text-lg font-semibold ${
                 activeTab === "mission" 
-                  ? "bg-[#fa6c38] text-white" 
-                  : "text-gray-600 hover:text-[#fa6c38]"
+                  ? "bg-[#f78614] text-white" 
+                  : "text-gray-600 hover:text-[#f78614]"
               }`}
             >
               🚀 Our Mission
@@ -95,7 +95,7 @@ export default function VisionMission() {
         {/* Content */}
         <div className="grid lg:grid-cols-2 gap-8">
           {(activeTab === "vision" ? visionPoints : missionPoints).map((point, index) => (
-            <Card key={index} className="bg-white hover:shadow-xl transition-all duration-300 border-l-4 border-l-[#fa6c38] hover:scale-105">
+            <Card key={index} className="bg-white hover:shadow-xl transition-all duration-300 border-l-4 border-l-[#f78614] hover:scale-105">
               <CardHeader>
                 <div className="flex items-center gap-4 mb-2">
                   <div className="text-3xl">{point.icon}</div>
@@ -117,13 +117,13 @@ export default function VisionMission() {
               "True leadership is not about the position you hold, but about the positive impact you create in the lives of others. 
               My commitment is to serve as a bridge between the dreams of our youth and the opportunities our nation provides."
             </blockquote>
-            <p className="text-lg font-semibold text-[#fa6c38]">- KTS Kavin</p>
+            <p className="text-lg font-semibold text-[#f78614]">- KTS Kavin</p>
           </div>
         </div>
 
         <div className="text-center mt-12">
           <Link href="/vision">
-            <Button size="lg" className="bg-gradient-to-r from-[#fa6c38] to-orange-500 hover:from-[#e85a2b] hover:to-orange-600 text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+            <Button size="lg" className="bg-gradient-to-r from-[#f78614] to-orange-500 hover:from-[#e85a2b] hover:to-orange-600 text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
               📋 Read Complete Vision Document
             </Button>
           </Link>
