@@ -2,7 +2,7 @@
 
 ![KTS Kavin Portfolio](./public/Hero_img.jpeg)
 
-A modern, responsive portfolio website for **KTS Kavin**, BJP Youth Wing Leader dedicated to empowering youth and transforming communities in Tamil Nadu.
+A modern, responsive portfolio website for **KTS Kavin**, BJP State Secretary Youth Wing Tamil Nadu dedicated to empowering youth and transforming communities through blood donation drives and community service.
 
 ## 🌟 Overview
 

@@ -1,7 +1,7 @@
 # KTS Kavin Portfolio Website - Deployment Guide
 
 ## Overview
-This is a professional portfolio website for KTS Kavin, a BJP Youth Wing leader in Tamil Nadu. The site is built with Next.js, TypeScript, shadcn UI, and Tailwind CSS.
+This is a professional portfolio website for KTS Kavin, BJP State Secretary Youth Wing Tamil Nadu. The site is built with Next.js, TypeScript, shadcn UI, and Tailwind CSS.
 
 ## Technology Stack
 - **Framework**: Next.js 15.5.2 with App Router

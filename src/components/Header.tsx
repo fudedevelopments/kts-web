@@ -141,7 +141,7 @@ export default function Header() {
             <div className='hidden sm:block'>
               <div className='text-2xl font-bold text-[#f78614]'>KTS Kavin</div>
               <div className='text-xs text-gray-500 font-medium'>
-                BJP Youth Leader
+                BJP State Secretary
               </div>
             </div>
             <div className='sm:hidden text-xl font-bold text-[#f78614]'>
@@ -151,6 +151,12 @@ export default function Header() {
 
           {/* Enhanced Desktop Navigation */}
           <div className='hidden md:flex items-center space-x-1'>
+            <Link
+              href='/'
+              className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+            >
+              Home
+            </Link>
             <Link
               href='/about'
               className='px-4 py-2 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
@@ -230,6 +236,13 @@ export default function Header() {
         {isMenuOpen && (
           <div className='md:hidden mt-6 pb-6 border-t border-gray-100'>
             <div className='flex flex-col space-y-2 pt-4'>
+              <Link
+                href='/'
+                className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🏠 Home
+              </Link>
               <Link
                 href='/about'
                 className='px-4 py-3 text-gray-700 hover:text-[#f78614] hover:bg-orange-50 rounded-lg transition-all duration-200 font-medium'

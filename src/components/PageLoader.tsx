@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useLoading } from "@/context/Golobalprovider";
 import { Button } from "./ui/button";
 
@@ -8,12 +9,26 @@ interface PageLoaderProps {
 }
 
 export default function PageLoader({ onEnterSite }: PageLoaderProps) {
-  const { isLoading } = useLoading();
+  const { isLoading, stopLoading } = useLoading();
+  const [animationState, setAnimationState] = useState<'idle' | 'transforming' | 'flying' | 'hidden'>('idle');
   
   const handleEnterSite = () => {
-    if (onEnterSite) {
-      onEnterSite();
-    }
+    // Start the balloon animation sequence
+    setAnimationState('transforming');
+    
+    // After transform animation completes, start flying
+    setTimeout(() => {
+      setAnimationState('flying');
+      
+      // After flying animation completes, hide and show home screen
+      setTimeout(() => {
+        setAnimationState('hidden');
+        stopLoading(); // This will hide the loader and show home screen
+        if (onEnterSite) {
+          onEnterSite();
+        }
+      }, 2500); // Flying animation duration (matches CSS)
+    }, 800); // Transform animation duration
   };
 
   if (!isLoading) return null;
@@ -34,12 +49,26 @@ export default function PageLoader({ onEnterSite }: PageLoaderProps) {
             KTS Kavin
           </h2>
           <p className="text-gray-600 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            BJP Youth Wing Leader
+            BJP State Secretary Youth Wing Tamil Nadu
           </p>
         </div>
-        <Button onClick={handleEnterSite} className="mt-4 bg-gradient-to-r from-[#f78614] to-orange-500 hover:from-[#e85a2b] hover:to-orange-600 text-white">
-          Let's Enter
-        </Button>
+        <div className="flex justify-center items-center mt-4">
+          <Button 
+            onClick={handleEnterSite} 
+            disabled={animationState !== 'idle'}
+            className={`balloon-button bg-gradient-to-r from-[#f78614] to-orange-500 hover:from-[#e85a2b] hover:to-orange-600 text-white transition-all duration-300 relative z-10 flex items-center justify-center ${
+              animationState === 'transforming' ? 'animate-balloon-transform !p-0' : 
+              animationState === 'flying' ? 'animate-balloon-fly !p-0 !w-[60px] !h-[60px] !min-w-[60px] !rounded-full' : 
+              animationState === 'hidden' ? 'animate-balloon-pop !p-0 !w-[60px] !h-[60px] !min-w-[60px] !rounded-full' : 'px-6 py-2'
+            } ${
+              animationState !== 'idle' ? 'overflow-hidden' : ''
+            }`}
+          >
+            <span className={`transition-all duration-300 flex items-center justify-center text-center ${animationState !== 'idle' ? 'text-2xl leading-none' : 'text-base'}`}>
+              {animationState === 'idle' ? "Welcome To KTS" : '🎈'}
+            </span>
+          </Button>
+        </div>
         {/* Loading Bar */}
         {/* <div className="mt-8 w-64 mx-auto">
           <div className="h-1 bg-gray-200 rounded-full overflow-hidden">

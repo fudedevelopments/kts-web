@@ -124,8 +124,9 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
+  html, body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 }
 
@@ -390,6 +391,74 @@
   }
 }
 
+/* Balloon Animation Keyframes */
+@keyframes balloon-transform {
+  0% {
+    transform: scale(1);
+    border-radius: 0.5rem;
+    width: auto;
+    height: auto;
+  }
+  50% {
+    transform: scale(1.1);
+    border-radius: 25px;
+  }
+  100% {
+    transform: scale(1);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  }
+}
+
+@keyframes balloon-fly {
+  0% {
+    transform: scale(1) translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 50%;
+  }
+  15% {
+    transform: scale(1.4) translateY(-10vh) rotate(-2deg);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.8) translateY(-25vh) rotate(1deg);
+    opacity: 0.95;
+  }
+  50% {
+    transform: scale(2.2) translateY(-50vh) rotate(-1deg);
+    opacity: 0.9;
+  }
+  70% {
+    transform: scale(2.6) translateY(-75vh) rotate(0.5deg);
+    opacity: 0.7;
+  }
+  85% {
+    transform: scale(3) translateY(-90vh) rotate(-0.5deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(3.5) translateY(-110vh) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+@keyframes balloon-pop {
+  0% {
+    transform: scale(3.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(4);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
 /* Enhanced animation classes */
 @layer utilities {
   .animate-fade-in-up {
@@ -426,6 +495,37 @@
   
   .animate-bounce-subtle {
     animation: bounce-subtle 2s ease-in-out infinite;
+  }
+  
+  /* Balloon Animation Classes */
+  .animate-balloon-transform {
+    animation: balloon-transform 0.8s ease-in-out forwards;
+  }
+  
+  .animate-balloon-fly {
+    animation: balloon-fly 2.5s ease-out forwards;
+    position: fixed !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform-origin: center center;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  
+  .animate-balloon-pop {
+    animation: balloon-pop 0.3s ease-out forwards;
+  }
+  
+  /* Balloon specific styles */
+  .balloon-button {
+    transition-property: width, height, border-radius, padding, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .balloon-button:not(.animate-balloon-transform):not(.animate-balloon-fly):not(.animate-balloon-pop) {
+    width: auto;
+    height: auto;
+    min-width: auto;
   }
   
   /* Smooth scroll behavior */

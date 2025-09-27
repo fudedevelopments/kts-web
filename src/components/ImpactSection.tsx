@@ -7,7 +7,7 @@ export default function ImpactSection() {
     {
       number: "500+",
       label: "Blood Units Donated",
-      description: "Life-saving blood donation drives across Tamil Nadu",
+      description: "300+ units of blood collected through 6+ camps with 5 hospital tie-ups",
       icon: "🩸",
       color: "orange"
     },

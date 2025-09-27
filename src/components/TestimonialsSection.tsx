@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
       name: "Dr. Rajesh Kumar",
       role: "Medical Officer, Government Hospital",
       location: "Perundurai",
-      text: "KTS Kavin's blood donation drives have been a lifesaver for our hospital. His dedication to healthcare initiatives and community service is truly commendable. We've saved countless lives together.",
+      text: "KTS Kavin's 6+ blood donation camps have collected 300+ units through our hospital tie-up. His dedication to healthcare initiatives and community service is truly commendable. We've saved countless lives together.",
       rating: 5
     },
     {

@@ -6,7 +6,7 @@ export default function Achievements() {
   const achievements = [
     {
       title: "Blood Donation Drives",
-      description: "Organized multiple blood donation camps, saving hundreds of lives across Tamil Nadu.",
+      description: "Organized 6+ blood donation camps with hospital tie-ups, collecting 300+ units of blood across Tamil Nadu.",
       impact: "500+ units collected",
       image: "🩸",
     },

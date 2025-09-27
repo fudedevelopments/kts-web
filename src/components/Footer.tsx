@@ -20,6 +20,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-[#f78614] mb-4">Quick Links</h3>
             <div className="space-y-2">
+              <a href="/" className="block hover:text-orange-400 transition-colors">Home</a>
               <a href="/about" className="block hover:text-orange-400 transition-colors">About</a>
               <a href="/campaigns" className="block hover:text-orange-400 transition-colors">Campaigns</a>
               <a href="/vision" className="block hover:text-orange-400 transition-colors">Vision</a>
@@ -39,7 +40,7 @@ export default function Footer() {
           <p className="text-gray-400">
             &copy; {new Date().getFullYear()} KTS Kavin. All rights reserved. 
             <span className="block mt-2">
-              Authorized by KTS Kavin, BJP Youth Wing Leader
+              Authorized by KTS Kavin, BJP State Secretary Youth Wing Tamil Nadu
             </span>
           </p>
         </div>

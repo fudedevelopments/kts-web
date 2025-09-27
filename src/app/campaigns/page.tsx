@@ -12,7 +12,7 @@ export default function CampaignsPage() {
       title: "Blood Donation Campaigns",
       description: "Organized large-scale blood donation drives across Tamil Nadu, partnering with hospitals and medical institutions to address critical blood shortages.",
       achievements: [
-        "500+ units of blood collected",
+        "300+ units of blood collected",
         "25+ donation camps organized",
         "Partnership with 10+ hospitals",
         "Hundreds of lives saved"
@@ -119,12 +119,12 @@ export default function CampaignsPage() {
               <div className="text-gray-700">Years of Service</div>
             </div>
             <div className="text-center bg-blue-50 p-6 rounded-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-2">100+</div>
-              <div className="text-gray-700">Events Organized</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">6+</div>
+              <div className="text-gray-700">Blood Camps</div>
             </div>
             <div className="text-center bg-green-50 p-6 rounded-lg">
-              <div className="text-3xl font-bold text-green-600 mb-2">5000+</div>
-              <div className="text-gray-700">People Impacted</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">5</div>
+              <div className="text-gray-700">Hospital Tie-ups</div>
             </div>
             <div className="text-center bg-purple-50 p-6 rounded-lg">
               <div className="text-3xl font-bold text-purple-600 mb-2">20+</div>
